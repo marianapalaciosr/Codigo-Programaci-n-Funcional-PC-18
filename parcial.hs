@@ -27,7 +27,7 @@ main = do
   let tareas1 = agregarTarea "Aprender Haskell" tareasIniciales
   let tareas2 = agregarTarea "Hacer el parcial de PC" tareas1
   let tareas3 = agregarTarea "Hacer ejercicio" tareas2
-  let tareas4 = marcarCompletada 1 tareas3  -- Marcar "Escribir un blog" como completada
+  let tareas4 = marcarCompletada 1 tareas3  -- Marcar "Hacer el parcial de PC" como completada
 
   putStrLn "Todas las tareas:"
   mostrarTareas tareas4
